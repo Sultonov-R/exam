@@ -1,0 +1,43 @@
+.login-wrapper{
+    width: 384px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 80px auto;
+    align-items: center;
+    box-shadow: 1px 4px 3px 4px rgb(246, 241, 241);
+    border-radius:8px;
+}
+#darkMode .login-wrapper{
+    box-shadow:1px 1px 2px rgb(0, 0, 0)
+}
+.signIn-title{
+    color:#394E6A;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+}
+#darkMode .signIn-title{
+    color:#F8F8F2;
+}
+.footer-form{
+    display: flex;
+    gap: 10px;
+}
+span{
+    color: #394E6A;
+    font-size: 16px;
+}
+#darkMode span{
+    color:#F8F8F2;
+}
+a{
+    text-decoration: none;
+    color: #057AFF;
+    font-size: 16px;
+}
+#darkMode a{
+    color:#FF7AC6;
+}

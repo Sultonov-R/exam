@@ -1,0 +1,36 @@
+.home {
+    color: #C7C9D1;
+    font-size: 14px;
+    background: #021431;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+#darkMode .home {
+    background-color: #414558;
+    color: #C7C9D1;
+}
+
+.other {
+    color: #394E6A;
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#darkMode .other {
+    color: #C7C9D1;
+}
+
+.other:hover {
+    background-color: #e5e7eb;
+    transition: all 0.4s;
+}
+
+#darkMode .other:hover {
+    background-color: #23242b;
+}

@@ -1,0 +1,29 @@
+
+.input-email{
+    width: 320px;
+    padding: 0 16px;
+    border-width:1px;
+    border-color:bisque;
+    border-radius:10px;
+    height: 46px;
+}
+#darkMode .input-email{
+    background-color: #272935;
+    border-color:#272935;
+    border-width:1px;
+    color:#F8F8F2;
+}
+.inputForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-label{
+    padding: 8px 4px;
+    color:#394E6A;
+    font-size: 14px;
+}
+#darkMode .input-label{
+    color:#F8F8F2;
+}

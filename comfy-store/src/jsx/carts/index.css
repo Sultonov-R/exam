@@ -1,0 +1,12 @@
+.cartName   {
+    padding: 80px 0px;
+    border-bottom-width: 2px;
+}
+.cartName h1{
+    font-size: 30px;
+    color:#394E6A;
+    height: 100vh;
+}
+#darkMode .cartName h1{
+    color:#F8F8F2;
+}

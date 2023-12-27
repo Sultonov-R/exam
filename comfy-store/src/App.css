@@ -1,0 +1,116 @@
+header {
+  background-color: #021431;
+  color: #C7C9D1;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.visible-header {
+  display: block;
+}
+
+.hidden-header {
+  display: none;
+}
+
+#darkMode header {
+  background-color: #414558;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+body.dark-theme {
+  background: #272935;
+  color: #F8F8F2;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #C7C9D1;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+#darkMode header a {
+  color: #F8F8F2;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.register {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+
+}
+
+/* nav starts */
+nav {
+  display: flex;
+  background-color: #F0F6FF;
+}
+
+#darkMode nav {
+  background-color: #181920;
+}
+
+.logo {
+  padding: 8px 0px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.logo-nav {
+  background: #057AFF;
+  color: #DBE1FF;
+  font-size: 30px;
+  padding: 10px 16px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#darkMode .logo-nav {
+  background-color: #FF7AC6;
+  color: #181920;
+}
+
+.logo-nav .dark-theme {
+  background-color: #FF7AC6;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.cart-theme {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.moon-icon,
+.cart-icon {
+  cursor: pointer;
+}

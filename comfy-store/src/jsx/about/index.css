@@ -1,0 +1,52 @@
+.info-about{
+    padding: 80px 0px;
+    margin: 0px 67px;
+    
+}
+.about-title{
+    display: flex;
+    gap: 6px;
+    align-items:center;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+.we-love{
+    color: #394E6A;
+    font-size: 60px;
+    letter-spacing: -.025em;
+    font-weight: 700;
+}
+#darkMode .we-love{
+    color:#F8F8F2;
+}
+.stat{
+    padding: 16px 24px;
+    background-color:#057AFF;
+    border-radius: 20px;
+    border: none;
+}
+#darkMode .stat{
+    background-color:#FF7AC6;
+}
+.stat-title{
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-size: 36px;
+    color: #DBE1FF;
+    line-height: 2.5rem;
+}
+#darkMode .stat-title{
+    color:#181920;
+}
+.parag{
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 24px 208px 0px;
+    color:#394E6A;
+    font-size: 18px;
+    line-height: 2rem;    
+}
+#darkMode .parag{
+    color:#F8F8F2;
+}

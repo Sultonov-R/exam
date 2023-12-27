@@ -1,0 +1,29 @@
+.card-wrapper{
+    width: 426px;
+    
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 394px;
+    height: 192px;
+}
+
+.img-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    align-items:center;
+    text-align: center;
+}
+.title{
+    color:#394E6A;
+    font-size: 20px;
+}
+.price{
+    color:#463AA1;
+    font-size: 16px;
+}
